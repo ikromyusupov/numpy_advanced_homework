@@ -8,3 +8,10 @@ def sum_axis_1(arr: np.ndarray) -> int:
     Returns:
         np.ndarray: max of each row
     """
+    max = arr[0]
+    i = 0
+    for k in range(1,len(arr)):
+        i+=1
+        if arr[k,i] > max:
+            max = arr[k,i]
+    return max
