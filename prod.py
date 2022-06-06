@@ -8,3 +8,4 @@ def arr_product(arr: np.ndarray) -> int:
     Returns:
         int: product of all numbers
     """
+    return arr.prod()
